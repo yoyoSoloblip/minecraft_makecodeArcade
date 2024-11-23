@@ -240,6 +240,6 @@ myMenu.onButtonPressed(controller.A, function (selection, selectedIndex) {
 })
 forever(function () {
     if (mySprite) {
-    	
+        mySprite.y += 5
     }
 })
