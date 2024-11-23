@@ -1,0 +1,50 @@
+{
+    "name": "Minecraft",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.0.1",
+        "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.57",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#FFFFFF",
+        "#FF2121",
+        "#9E6400",
+        "#FF8135",
+        "#FFF609",
+        "#249CA3",
+        "#78DC52",
+        "#003FAD",
+        "#87F2FF",
+        "#8E2EC4",
+        "#A4839F",
+        "#5C406c",
+        "#E5CDC4",
+        "#91463d",
+        "#000000"
+    ]
+}
